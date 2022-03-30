@@ -10,9 +10,9 @@ module.exports = {
     //   url: "https://rpc-mumbai.matic.today",
     //   accounts: [process.env.pk]
     // },
-    // polygon: {
-    //   url: "https://polygon-rpc.com/",
-    //   accounts: [process.env.pk]
-    // }
+    polygon: {
+      url: "https://polygon-mainnet.infura.io/v3/560b52a74cbc490fb9dd6f0a4b552255",
+      accounts: process.env.PK
+    }
   }
 };
